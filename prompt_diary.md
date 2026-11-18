@@ -35,3 +35,20 @@ Am Ende kann der Spieler entscheiden, ob er noch einmal spielen oder das Program
 Prompt 3 15.10.2026:
 
 Ich möchte auch, dass  gesagt wird, welche Zahl an welcher Stelle schon passt bzw. dass die Zahl die auf der Richtigen stelle ist, dann lila ist und die Zahl die zwar im Code vorkommt aber noch nicht auf der richtigen stelle ist orange ist. Und wenn man den Code Komlett richtig hat, dann soll es komplet in lila geschrieben sein. Bitte ergänze dese Änderung in den Dateien also auch im Readme, damit das erklärt wird. Und allgemein in allen Dateien in der das ergänzt werden muss. 
+
+Prompt 4 18.11.2026:
+
+Hey ich muss jetzt mein Projekt debuggen und einen debugging dcreenshot erstellen.
+Die Abgabe verlangt kompilierbaren Anwendungscode, ein `manual.md` zur Bedienung,
+mindestens ein in `features.md` abgehaktes und implementiertes Feature, ein
+erweitertes Prompt-Tagebuch und einen Screenshot, der den angehaltenen
+Breakpoint im eigenen Projektcode zeigt.
+
+Umsetzung und Ergebnis:
+- Das bestehende Konsolenspiel und seine implementierten Funktionen wurden
+  beibehalten; die vorhandenen Features sind in `features.md` abgehakt.
+- `manual.md` beschreibt jetzt zusätzlich, wie man in IntelliJ einen Breakpoint
+  setzt, das Programm im Debug-Modus startet und den Debugger bedient.
+- Für den Screenshot soll der Debugger in `src/Main.java` bei `int attempts = 0;`
+  in `playGame` angehalten werden. Der Screenshot muss die Codezeile mit dem
+  Breakpoint und das Debugger-Fenster zeigen.
